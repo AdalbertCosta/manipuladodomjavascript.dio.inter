@@ -19,7 +19,14 @@ meuElemento.classList.toggle("dark-mode")
 
 
 //RESULTADO
-<div id="meu-elemento" class="novo-estilo darl=k-mode">
+<div id ="meu-elemento" class="novo-estilo darl=k-mode">
 </div>
+
+//CSS
+
+//Acessando diretamente o CSS de um elemento
+
+document.getElementsByTagName("p").style.color = "blue";
+
 
 
